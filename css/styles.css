@@ -127,3 +127,45 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* cta-section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  padding-top: 2rem;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+/* footer section */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.copyright-disclaimer {
+  color: grey;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* CSS media-query */
+@media (max-width: 1028px) {
+  #title {
+      text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
